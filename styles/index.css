@@ -19,7 +19,9 @@ body {
   background-color: #ddd;
   color: black;
 }
-
+#Project-Name{
+  text-align: center;
+}
   
 .topnav a.active {
   background-color: #4CAF50;
@@ -80,6 +82,21 @@ body {
   font-size:24px;
   line-height: 2;
 }
+.list-skills{
+  list-style: none;
+  display:table;
+  display:flex;
+  justify-content: space-between;
+  padding-right:20px;
+}
+li {
+  display:table-cell;
+}
+.github-repo{
+  margin-bottom:5px;
+  margin-left:30px;
+}
+
 @media only screen and (min-width: 700px){
   h1{
     float:right;

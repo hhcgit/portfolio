@@ -134,13 +134,21 @@ a{
         <div class="image-container-l">
             <div class="text-container">
                 <p class="bio-text">
-                        Harrison Chen is a recent graduate from the Pennsylvania State University with a degree in Physics. After graduation, he spent time working in a global trading company as an assistance while studying Computer Science on his spare time, and got his COMPTIA A+ certificate by early 2018. After consulting with his friends at Google, he started Learning machine learning, and graduated from the Deep Learning NanoDegree course at Udacity. Harrison Chen's passion for writing code didn't ends here, and he is currently enrolled in the Engineering Immersion course provided by Thinkful.
+                        Harrison Chen is a recent graduate from the Pennsylvania State University with a degree in Physics. After graduation, he spent time working in a global trading company as an assistance while studying Computer Science on his spare time, and got his COMPTIA A+ certificate by early 2018. After consulting with his friends at Google, he started Learning machine learning, and graduated from the Deep Learning NanoDegree course at Udacity. Harrison Chen's passion for writing code didn't end there. He is currently enrolled in the Engineering Immersion course provided by Thinkful.
                 </p>
             </div>
         </div>
     </div>
 
 <h2 id="Projects">Projects</h2>
+<h3 id="Project-Name"></h3>
+<h4>Technology Used</h4>
+  <ul class="list-skills" id="list-skills">
+   
+  </ul>
+<a class="github-repo" target="_blank" id="github">
+  Click here to visit Github Repository
+</a>
 
 <div class="container">
   <div class="mySlides">
@@ -182,22 +190,22 @@ a{
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131591/Cactus-Head_tfn8qs.png" style="width:100%" onclick="currentSlide(1)" alt="A website for plant informations. Click to visit. ">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131591/Cactus-Head_tfn8qs.png" style="width:100%" onclick="currentSlide(1)" alt="A website for plant informations. Click here to visit live page. ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131589/Space-Repetition_kxts0o.png" style="width:100%" onclick="currentSlide(2)" alt="A website for learning Italian using the space repetition method. Click to visit. ">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131589/Space-Repetition_kxts0o.png" style="width:100%" onclick="currentSlide(2)" alt="A website for learning Italian using the space repetition method. Click here to visit live page. ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131586/Space-Repetition-Mobile_hn0odb.png" style="width:100%" onclick="currentSlide(3)" alt="The mobile view of the space repetition site. Click to visit.">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131586/Space-Repetition-Mobile_hn0odb.png" style="width:100%" onclick="currentSlide(3)" alt="The mobile view of the space repetition site. Click here to visit live page.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131587/Squad-Up-Mobile_w2qnfh.png" style="width:100%" onclick="currentSlide(4)" alt="A website built to connect gamers. Click to visit.">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131587/Squad-Up-Mobile_w2qnfh.png" style="width:100%" onclick="currentSlide(4)" alt="A website built to connect gamers. Click here to visit live page.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131588/Squad-Up_lnhgw7.png" style="width:100%" onclick="currentSlide(5)" alt="The mobile view of SquadUp. Click to visit.">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131588/Squad-Up_lnhgw7.png" style="width:100%" onclick="currentSlide(5)" alt="The mobile view of SquadUp. Click here to visit live page.">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131586/Petful_b0mfv8.png" style="width:100%" onclick="currentSlide(6)" alt="A website built for Pet adoption. Click to visit. ">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131586/Petful_b0mfv8.png" style="width:100%" onclick="currentSlide(6)" alt="A website built for Pet adoption. Click here to visit live page.">
     </div>
   </div>
 </div>
@@ -207,6 +215,14 @@ a{
         </div>
 </footer>
 <script>
+const names = [
+  "Cactus Head",
+  "Space Repetition",
+  "Space Repetition",
+  "SquadUp",
+  "SquadUp",
+  "Petful"
+]
 const url= [
     'https://capstone-client.harrisonhuaruichen.now.sh',
     'https://eg-hc-spaced-repetition.netlify.com/',
@@ -215,6 +231,23 @@ const url= [
     'https://squadup.now.sh/',
     'https://petful.harrisonhuaruichen.now.sh/'
 ]
+const repos = [
+  "https://github.com/hhcgit/capstone-client-publish",
+  "https://github.com/thinkful-ei-cheetah/sr-client-elan-harrison",
+  "https://github.com/thinkful-ei-cheetah/sr-client-elan-harrison",
+  "https://github.com/cgillette12/Squad-up-Client",
+  "https://github.com/cgillette12/Squad-up-Client",
+  "https://github.com/thinkful-ei-cheetah/Petful-Client-Adam-Harrison"
+]
+const skills=[
+  ["Reactjs","Nodejs","PostgresSQL", "Express"],
+  ["Reactjs","Nodejs","PostgresSQL", "Express"],
+  ["Reactjs","Nodejs","PostgresSQL", "Express"],
+  ["Reactjs","Nodejs","PostgresSQL", "Express","Socketio"],
+  ["Reactjs","Nodejs","PostgresSQL", "Express", "Socketio"],
+  ["Reactjs","Nodejs","PostgresSQL", "Express"]
+]
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -223,7 +256,7 @@ function plusSlides(n) {
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides(slideIndex = n); 
 }
 
 function showSlides(n) {
@@ -239,10 +272,19 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
+  document.getElementById("Project-Name").innerHTML = names[slideIndex-1];
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
   captionText.setAttribute("href",`${url[slideIndex-1]}`)
+  document.getElementById("github").setAttribute("href",`${repos[slideIndex-1]}`)
+  document.getElementById("list-skills").innerHTML = "";
+  skills[slideIndex-1].forEach(s => {
+    let ul = document.getElementById("list-skills")
+    let li = document.createElement('li')
+    li.appendChild(document.createTextNode(s))
+    ul.appendChild(li)
+  })
 }
 </script>
     
