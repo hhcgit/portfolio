@@ -26,7 +26,6 @@ img {
 
 .container {
   position: relative;
-  min-width:500px;
   text-align: center;
   margin-left:auto;
   margin-right:auto;
@@ -38,7 +37,6 @@ img {
     }
 }
 
-
 .mySlides {
   display: none;
 }
@@ -47,7 +45,6 @@ img {
 .cursor {
   cursor: pointer;
 }
-
 
 .prev,
 .next {
@@ -142,13 +139,15 @@ a{
 
 <h2 id="Projects">Projects</h2>
 <h3 id="Project-Name"></h3>
+<div class="skill-container">
 <h4>Technology Used</h4>
-  <ul class="list-skills" id="list-skills">
-   
+  <ul class="list-skills" id="list-skills">   
   </ul>
-<a class="github-repo" target="_blank" id="github">
-  Click here to visit Github Repository
-</a>
+
+  <a class="github-repo" target="_blank" id="github">
+    Click here to visit Github Repository
+  </a>
+</div>
 
 <div class="container">
   <div class="mySlides">
@@ -190,22 +189,22 @@ a{
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131591/Cactus-Head_tfn8qs.png" style="width:100%" onclick="currentSlide(1)" alt="A website for plant informations. Click here to visit live page. ">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131591/Cactus-Head_tfn8qs.png" style="width:100%" onclick="currentSlide(1)" alt="A website for plant informations. A user can search information on plants using it's common and sceintific name and can redirect to reliable source for more information. Click here to visit live page. ">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131589/Space-Repetition_kxts0o.png" style="width:100%" onclick="currentSlide(2)" alt="A website for learning Italian using the space repetition method. Click here to visit live page. ">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131589/Space-Repetition_kxts0o.png" style="width:100%" onclick="currentSlide(2)" alt="A website for learning Italian using the space repetition method. A user can create an account on the live page and start learning Italian. Click here to visit live page. ">
     </div>
     <div class="column">
       <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131586/Space-Repetition-Mobile_hn0odb.png" style="width:100%" onclick="currentSlide(3)" alt="The mobile view of the space repetition site. Click here to visit live page.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131587/Squad-Up-Mobile_w2qnfh.png" style="width:100%" onclick="currentSlide(4)" alt="A website built to connect gamers. Click here to visit live page.">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131587/Squad-Up-Mobile_w2qnfh.png" style="width:100%" onclick="currentSlide(4)" alt="A website built to connect gamers. Functions including joining squads that others made, and live chat in the squad channel. Click here to visit live page.">
     </div>
     <div class="column">
       <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131588/Squad-Up_lnhgw7.png" style="width:100%" onclick="currentSlide(5)" alt="The mobile view of SquadUp. Click here to visit live page.">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131586/Petful_b0mfv8.png" style="width:100%" onclick="currentSlide(6)" alt="A website built for Pet adoption. Click here to visit live page.">
+      <img class="demo cursor" src="https://res.cloudinary.com/dxjjosi5g/image/upload/v1564131586/Petful_b0mfv8.png" style="width:100%" onclick="currentSlide(6)" alt="A website built for Pet adoption. When a user opens the live page, he/she can choose to add themselves to the queue and can start to adopt pet when it is their turn. Click here to visit live page.">
     </div>
   </div>
 </div>
@@ -243,8 +242,8 @@ const skills=[
   ["Reactjs","Nodejs","PostgresSQL", "Express"],
   ["Reactjs","Nodejs","PostgresSQL", "Express"],
   ["Reactjs","Nodejs","PostgresSQL", "Express"],
-  ["Reactjs","Nodejs","PostgresSQL", "Express","Socketio"],
-  ["Reactjs","Nodejs","PostgresSQL", "Express", "Socketio"],
+  ["Reactjs","PostgresSQL", "Express","Socketio"],
+  ["Reactjs","PostgresSQL", "Express", "Socketio"],
   ["Reactjs","Nodejs","PostgresSQL", "Express"]
 ]
 

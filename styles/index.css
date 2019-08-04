@@ -94,14 +94,33 @@ li {
 }
 .github-repo{
   margin-bottom:5px;
-  margin-left:30px;
+  margin-left:30px; 
 }
+.list-skills{
+  max-width:600px;
+}
+.skill-container{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+h3{
+  font-size:28px;
+}
+h4{
+  font-size:20px;
+}
+
 
 @media only screen and (min-width: 700px){
   h1{
     float:right;
     margin-right:10px;
     margin-top:-45px;
+  }
+  .skill-container{
+    width:600px;
+    text-align: center;
   }
   .image-container-l{
     width:80%;
@@ -115,13 +134,14 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .text-container{
-    padding: 100px 50px 100px 50px;
-  }
+  
   .bio-text{
     max-width: 600px;
     margin-left:auto;
     margin-right:auto;
+  }
+  .text-container{
+    padding: 100px 50px 100px 50px;
   }
 }
 @media only screen and (max-width:699px){
@@ -139,6 +159,34 @@ li {
   }
   .text-container{
     padding-top:80px;
+  }
+  .text-container{
+    padding: 100px 50px 100px 50px;
+  }
+}
+@media only screen and (max-width:500px){
+  .text-container{
+    padding: 0px 10px 100px 10px;
+  }
+  .image-container-l{
+    width:100%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    height:1300px;
+    background-Image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)), url('https://res.cloudinary.com/dxjjosi5g/image/upload/v1564166394/20190726_040215_xr62vj.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .skill-container{
+    width:100%;
+  }
+  .list-skills{
+    width:100%;
+    padding-left:0;
+    padding-right:0;
   }
 }
 
